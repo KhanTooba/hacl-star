@@ -33,3 +33,6 @@ config.h
 *.smt2
 *.runlim
 dist/**/*.rsp
+gitPush.sh
+gitPull.sh
+
