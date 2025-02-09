@@ -24,7 +24,10 @@
 
 
 #include "internal/Hacl_HMAC.h"
-
+#include "riscv_vector.h"
+//typedef int32x4x2_t Lib_IntVector_Intrinsics_vec256;
+typedef vint32m4_t Lib_IntVector_Intrinsics_vec256;
+typedef vint32m4_t Lib_IntVector_Intrinsics_vec128;
 #include "Hacl_Streaming_Types.h"
 #include "Hacl_Krmllib.h"
 #include "Hacl_Hash_SHA3.h"
