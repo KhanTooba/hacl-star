@@ -6351,12 +6351,12 @@ attributes #4 = { "frame-pointer"="all" "no-trapping-math"="true" "stack-protect
 !3 = !DIFile(filename: "Hacl_HMAC.c", directory: "/home/rss/Documents/hacl-star/dist/gcc-compatible", checksumkind: CSK_MD5, checksum: "ee4266a4db6ab8b95c12b5b9e18cc37f")
 !4 = !{!5, !10, !13}
 !5 = !DIDerivedType(tag: DW_TAG_typedef, name: "uint32_t", file: !6, line: 26, baseType: !7)
-!6 = !DIFile(filename: "/usr/riscv64-linux-gnu/include/bits/stdint-uintn.h", directory: "", checksumkind: CSK_MD5, checksum: "9754ebe022edbe8d7928fa709e442f0d")
-!7 = !DIDerivedType(tag: DW_TAG_typedef, name: "__uint32_t", file: !8, line: 41, baseType: !9)
-!8 = !DIFile(filename: "/usr/riscv64-linux-gnu/include/bits/types.h", directory: "", checksumkind: CSK_MD5, checksum: "25679ba19d359e314e48661b21f5aa1f")
+!6 = !DIFile(filename: "/usr/riscv64-linux-gnu/include/bits/stdint-uintn.h", directory: "", checksumkind: CSK_MD5, checksum: "d3ea318a915682aaf6645ec16ac9f991")
+!7 = !DIDerivedType(tag: DW_TAG_typedef, name: "__uint32_t", file: !8, line: 42, baseType: !9)
+!8 = !DIFile(filename: "/usr/riscv64-linux-gnu/include/bits/types.h", directory: "", checksumkind: CSK_MD5, checksum: "f6304b1a6dcfc6bee76e9a51043b5090")
 !9 = !DIBasicType(name: "unsigned int", size: 32, encoding: DW_ATE_unsigned)
 !10 = !DIDerivedType(tag: DW_TAG_typedef, name: "uint64_t", file: !6, line: 27, baseType: !11)
-!11 = !DIDerivedType(tag: DW_TAG_typedef, name: "__uint64_t", file: !8, line: 44, baseType: !12)
+!11 = !DIDerivedType(tag: DW_TAG_typedef, name: "__uint64_t", file: !8, line: 45, baseType: !12)
 !12 = !DIBasicType(name: "unsigned long", size: 64, encoding: DW_ATE_unsigned)
 !13 = !DIDerivedType(tag: DW_TAG_typedef, name: "uint128_t", file: !14, line: 86, baseType: !15)
 !14 = !DIFile(filename: "../karamel/include/krml/internal/types.h", directory: "/home/rss/Documents/hacl-star/dist/gcc-compatible", checksumkind: CSK_MD5, checksum: "262263da8977e71823dd90291a398eca")
@@ -6388,7 +6388,7 @@ attributes #4 = { "frame-pointer"="all" "no-trapping-math"="true" "stack-protect
 !40 = !{null, !41, !41, !5, !41, !5}
 !41 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !42, size: 64)
 !42 = !DIDerivedType(tag: DW_TAG_typedef, name: "uint8_t", file: !6, line: 24, baseType: !43)
-!43 = !DIDerivedType(tag: DW_TAG_typedef, name: "__uint8_t", file: !8, line: 37, baseType: !44)
+!43 = !DIDerivedType(tag: DW_TAG_typedef, name: "__uint8_t", file: !8, line: 38, baseType: !44)
 !44 = !DIBasicType(name: "unsigned char", size: 8, encoding: DW_ATE_unsigned_char)
 !45 = !{}
 !46 = !DILocalVariable(name: "dst", arg: 1, scope: !38, file: !3, line: 53, type: !41)
@@ -8718,7 +8718,7 @@ attributes #4 = { "frame-pointer"="all" "no-trapping-math"="true" "stack-protect
 !2370 = !DILocation(line: 187, column: 3, scope: !2361)
 !2371 = !DILocation(line: 188, column: 1, scope: !2361)
 !2372 = distinct !DISubprogram(name: "__uint64_identity", scope: !2373, file: !2373, line: 45, type: !2374, scopeLine: 46, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !2, retainedNodes: !45)
-!2373 = !DIFile(filename: "/usr/riscv64-linux-gnu/include/bits/uintn-identity.h", directory: "", checksumkind: CSK_MD5, checksum: "7942d3aff16dfeb682c4583e58e1a4f3")
+!2373 = !DIFile(filename: "/usr/riscv64-linux-gnu/include/bits/uintn-identity.h", directory: "", checksumkind: CSK_MD5, checksum: "544939bf4e90270e79098eb977a12dcd")
 !2374 = !DISubroutineType(types: !2375)
 !2375 = !{!11, !11}
 !2376 = !DILocalVariable(name: "__x", arg: 1, scope: !2372, file: !2373, line: 45, type: !11)
